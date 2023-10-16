@@ -49,7 +49,7 @@ model = models.resnet50(pretrained=True)
 model.eval()
 ```
 * Dataset Filtering and Selection: After the above steps, you can perform inference on the entire dataset with the pre-trained model and select high-confidence images. For diversity, uniformly select samples from each Imagenet category. We sort each category by confidence and select the top k samples. Compute k as 122,186 (number of categories in ILSVRC-2012) divided by the Imagenet dataset categories used.
-* H-SNR Feature Extraction: To optimize the dataset further, we use CAM to extract sensitive areas. This process leverages the Signal-to-Noise Ratio (SNR) metric to quantify the relative strength of primary and background features. Find our high SNR feature extraction algorithm's code at the provided link.
+* H-SNR Feature Extraction: To optimize the dataset further, we use CAM to extract sensitive areas. This process leverages the Signal-to-Noise Ratio (SNR) metric to quantify the relative strength of primary and background features. Find our high SNR feature extraction algorithm's code at the [provided link](https://github.com/AIcode0608/H-SNR/blob/main/README.md).
 
 * Code File Structure:After completing dataset filtering and selection, you can organize the relevant code into a single file for easy replacement of the dataset path and project execution. Our approach is to store the dataset categorized in different folders and in .jpg format.
 
