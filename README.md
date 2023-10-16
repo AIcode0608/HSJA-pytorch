@@ -105,6 +105,7 @@ The following tables showcase HSJA's excellent theft performance on various targ
 |Dissector(K-center)|	58.91|	66.54|	74.57	|77.46	|79.36|
 |Dissector(Random)|	64.53|	70.12|	76.89|	78.90|	80.12|
 |HSJA(Ours)|	68.92|	74.24|	79.31|	80.41|	81.36|
+
 <img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/CIFAR10.png" width="310px"><img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/SVHN.png" width="310px"><img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/Caltech256.png" width="310px">
 
 
