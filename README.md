@@ -3,7 +3,7 @@ This repository contains the PyTorch implementation of HSJA, capable of reproduc
 
 We introduce a universal hard-label black-box model theft method: HSJA. Initially, HSJA uses Class Activation Mapping (CAM) to analyze sample attributes and extract sensitive feature regions, thereby reducing the noise impact on theft training and enhancing the precision of model functionality theft. Furthermore, we've constructed an efficient active learning selection strategy to train a substitute model with higher similarity within the same query budget. Ultimately, we propose a joint enhancement training mechanism, enabling the substitute model to approximate the decision distribution of the target black-box more effectively with fewer samples, addressing the balance between query budget and theft accuracy. We've validated the efficacy of HSJA on CIFAR10, SVHN, CALTECH256 datasets, and real APIs. Notably, using consistent experimental parameters, our substitute model's consistency accuracy has improved by up to 4.56% compared to existing methods.
 
-<img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/pig2.png" width="310px">
+<img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/pig2.png">
 
 ## Requirements
 - python 3.6 +
