@@ -105,7 +105,7 @@ The following tables showcase HSJA's excellent theft performance on various targ
 |Dissector(K-center)|	58.91|	66.54|	74.57	|77.46	|79.36|
 |Dissector(Random)|	64.53|	70.12|	76.89|	78.90|	80.12|
 |HSJA(Ours)|	68.92|	74.24|	79.31|	80.41|	81.36|
-<img src="[https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/pig2.png](https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/CIFAR10.png)">
+<img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/CIFAR10.png">
 ### SVHN
 | Method | 10K | 15K | 20K | 25K | 30K| 
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -115,7 +115,7 @@ The following tables showcase HSJA's excellent theft performance on various targ
 |Dissector(K-center)|	80.01|	84.63|	87.76|	88.66|	90.09|
 |Dissector(Random)|	83.42|	85.56|	88.92|	90.03|	92.68|
 |HSJA(Ours)|	85.77|	87.43|	90.36|	91.47|	93.21|
-
+<img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/SVHN.png">
 ### CALTECH256
 | Method | 10K | 15K | 20K | 25K | 30K| 
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -125,4 +125,4 @@ The following tables showcase HSJA's excellent theft performance on various targ
 |Dissector(K-center)	|54.63	|56.76	|60.69	|62.81|	63.76|
 |Dissector(Random)	|49.48	|53.31	|56.85|	57.09|	58.67|
 |HSJA(Ours)	|56.96	|58.48	|62.14	|63.96|	65.01|
-
+<img src="https://github.com/AIcode0608/HSJA-pytorch/blob/main/assets/Caltech256.png">
