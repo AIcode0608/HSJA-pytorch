@@ -65,7 +65,7 @@ all_data_files: Address for all unlabeled data.
 ```
 Note: We read data in JSON format. If your dataset storage differs, please modify the data reading method in ssl_dataset.
 * Prepare the Black-box Model: Before training the surrogate model, ensure the black-box model is ready. In this experiment, we use a ResNet34 model trained on CIFAR-10. When saving, save the complete model + parameters. Adjust the network structure parameters as needed during loading. The black-box model loading code is at line 54 of ssl_dataset.py.
-* PS: We've trained a CIFAR10 black-box model, which you can directly integrate into your project.
+* PS: We've trained a [CIFAR10 black-box](https://github.com/AI-See-World/ASSL-pytorch/tree/master) model, which you can directly integrate into your project.
 * Set Important Hyperparameters: In the train.py main function, you can set these critical hyperparameters:
 
 ```
